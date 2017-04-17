@@ -1,1 +1,32 @@
-project1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 1</title>
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+   <div id="board">
+     <img src="images/board3.jpg" alt="board" height="700" width="500">
+<!--  divs for the maze instead of an image  -->
+     <div id="car">
+         <img src="images/car1.jpg" alt="car" height="50" width="50px">
+     </div> 
+     <div id="w1"></div>
+     <div id="w2"></div>
+     <div id="w3"></div>
+     <div id="h1"></div>
+     <div id="h2"></div>
+   </div>
+   <button type="button" id="up" class="button">Up</button>
+   <button type="button" id="down" class="button">Down</button>
+   <button type="button" id="left" class="button">Left</button>
+   <button type="button" id="right" class="button">Right</button>
+   <button onclick="onTimer()" id="time">START</button>
+    <div id="mycounter">Timer here you have 60 seconds Go!!!!</div>
+ <script src='js/jquery-3.2.1.min.js'></script>
+ <script src="js/main.js"></script>
+<!-- <script src="js/main2.js"></script>-->
+</body>
+</html>
